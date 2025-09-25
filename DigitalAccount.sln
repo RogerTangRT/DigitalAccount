@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.36422.26
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{042EE293-AA37-413B-AA66-1ECCC71D04A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{042EE293-AA37-413B-AA66-1ECCC71D04A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{592C869B-155F-4F5B-AA0C-F70149FEFB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{26B33D79-E0CF-441F-B35B-741018C7FB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraRepository", "InfraRepository\InfraRepository.csproj", "{23E4BB8C-600A-444E-817B-EEA0BA93E151}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D942BA2-408A-4182-BD61-9FE22422AB03}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,18 @@ Global
 		{042EE293-AA37-413B-AA66-1ECCC71D04A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{042EE293-AA37-413B-AA66-1ECCC71D04A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{042EE293-AA37-413B-AA66-1ECCC71D04A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592C869B-155F-4F5B-AA0C-F70149FEFB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592C869B-155F-4F5B-AA0C-F70149FEFB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592C869B-155F-4F5B-AA0C-F70149FEFB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592C869B-155F-4F5B-AA0C-F70149FEFB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B33D79-E0CF-441F-B35B-741018C7FB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B33D79-E0CF-441F-B35B-741018C7FB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B33D79-E0CF-441F-B35B-741018C7FB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B33D79-E0CF-441F-B35B-741018C7FB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E4BB8C-600A-444E-817B-EEA0BA93E151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E4BB8C-600A-444E-817B-EEA0BA93E151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E4BB8C-600A-444E-817B-EEA0BA93E151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E4BB8C-600A-444E-817B-EEA0BA93E151}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

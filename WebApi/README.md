@@ -51,14 +51,16 @@ Login: Admin
 Senha: 
 
 
+Ir para o diretório do projeto
+```Console
+> cd C:/Users/Roger/Documents/GitHub/C#/DigitalAccount/DigitalAccount/Webapi
+```
+
 Compilar pelo WSL CLI
 ```Console
 > docker build -t webapi .
 ```
-Ir para o diretório do projeto
-```Console
-> cd C:\Users\Roger\Documents\GitHub\C#\DigitalAccount\DigitalAccount
-```
+
 Executar em produção
 ```Console
 > docker run -d -p 8080:80 --name webapi-container webapi
