@@ -53,6 +53,8 @@ Senha:
 
 Ir para o diretório do projeto
 ```Console
+> cd /
+> cd mnt/c/Users/Roger/Documents/GitHub/C#/DigitalAccount/DigitalAccount/
 > cd C:/Users/Roger/Documents/GitHub/C#/DigitalAccount/DigitalAccount/Webapi
 ```
 
